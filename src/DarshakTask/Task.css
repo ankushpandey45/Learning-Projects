@@ -1,0 +1,103 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+input {
+  width: 80%;
+  height: 50px;
+  padding: 25px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: black;
+  font-weight: 600;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 2px;
+  padding: 15px;
+  background-color: DimGray;
+  border-radius: 4px;
+  width: 482px;
+  height: 200px;
+  display: "flex";
+  margin-top: 30px;
+  margin-left: 150px;
+  align-items: center;
+}
+.sub_btn {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  font-weight: 600;
+  border: solid white 2px;
+  margin-left: 190px;
+  background-color: black;
+}
+.li {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+.li-div {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dlt-btn {
+  border-radius: 5px;
+  text-align: center;
+  width: 40px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: solid red;
+  margin-top: 5px;
+}
+.edit-btn {
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+  font-weight: 600;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: solid green;
+  margin-top: 5px;
+}
+.cards-div {
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 35px;
+  padding: 10px;
+  margin-top: 15px;
+  max-width: 250px;
+}
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.number {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.email {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.des {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

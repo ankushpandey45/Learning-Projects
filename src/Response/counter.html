@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Machine</title>
+  </head>
+  <body>
+    <h1 id="counter">Counter: 0</h1>
+    <button onclick="incrementCounter()">Increment</button>
+    <button onclick="decrementCounter()">Decrement</button>
+
+    <script>
+      let count = 0;
+
+      function updateCounterDisplay() {
+        document.getElementById("counter").innerText = `Counter: ${count}`;
+      }
+
+      function incrementCounter() {
+        count++;
+        updateCounterDisplay();
+      }
+
+      function decrementCounter() {
+        if (count > 0) {
+          count--;
+        }
+
+        updateCounterDisplay();
+      }
+    </script>
+  </body>
+</html>
